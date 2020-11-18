@@ -1,0 +1,472 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-color: white;
+   
+}
+#primero{
+    width: 100%;
+    height: 60px;
+    background: #021859;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    padding-top: 1%;
+    z-index: 100;
+    
+}
+#primero h1{
+    font-size: 24px;
+    color: white;
+    transition: all 0.3s ease;
+}
+#primero h1 i{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#TexMenu{
+    color: white !important;
+}
+
+/* ------------------------------------------ */
+
+#header_home{
+    background-color: #021859;
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    margin-top: 60px;
+    top: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    z-index: 5;
+}
+
+@media (max-width: 768px){
+    
+    .container-fluid{
+        position: relative;
+        background-color: #021859;
+    }
+    
+}
+.ico{
+    padding-left: 12px;
+    padding-right: 4px;
+}
+
+/* -------------------------------------------- */
+
+
+body.sticky-header{
+    padding-top: 100px;
+    background-color: red;
+}
+
+body.sticky-header header{
+    height: 60px;
+    background: yellow;
+}
+
+body.sticky-header header h1{
+    transform: scale(0,0);
+    background-color: pink;
+}
+
+#contenido{
+    margin-top: 8%;
+    padding-top: 5%;
+    position: relative;
+    z-index: 1;
+}
+/* yo */
+.ImgPerf{
+    width: 500px;
+    border: solid 5px #3B5998;
+    border-radius: 250px;
+}
+.conTextPerfil p{
+    text-align: justify;
+}
+.contCita{
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.texMeApa h3{
+    color: #3eb9c9;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 5%;
+}
+.contDir{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#titTecnologia{
+    color: #3eb9c9;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.texTecnolo p{
+    text-align: justify;
+    padding-left: 20px;
+}
+.contDatosYO{
+    padding-top: 15%;
+    text-align: right;
+}
+.contDsp{
+    padding-top: 10%;
+}
+/* yo */
+
+
+
+/* mi-familia */
+#contTtiFami{
+    padding-top: 10px;
+    padding-bottom: 35px;
+}
+.TitFamilia{
+    text-align: center;
+}
+.mr-3{
+    height: 140px;
+    border-radius: 30px;
+}
+.why-media{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.contFinFam{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.letra2-why{
+    text-align: left;
+}
+.letra1-why{
+    text-align: right;
+}
+.derechaFam{
+    margin-left: 40px;
+}
+
+.imgSobr{
+    width: 250px;
+    border-radius: 90px;
+    margin-bottom: 20px;
+}
+
+/* mi-familia */
+
+/* mi-ciudad */
+#main .carousel-inner img {
+    margin-top: 5%;
+    max-height: 88vh;
+    object-fit: cover;
+    filter: grayscale(40%);
+    z-index: 1;
+  }
+#carousel {
+    position: relative;
+  }
+  
+  #carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+  
+  
+  #place-time {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  #place-time img {
+    max-width: 100%;
+  }
+
+.contCarrousel{
+    color: white;
+    position: absolute;
+    margin-top: -30%;
+    z-index: 50;
+    padding-left: 15%;
+}
+#miCiudadText{
+   font-size: 3.5rem;
+   text-align: center !important;
+   max-width: 60%;
+   margin-left: 12%;
+}
+#miCiudadText2{
+   font-size: 1.6rem;
+   text-align: center !important;
+   max-width: 85%;
+}
+.titHist{
+    color: #3eb9c9;
+    margin-top: 5%;
+    font-size: 2rem;
+    margin-bottom: 3%;
+}
+.contTextHi p{
+text-align: justify;
+}
+.imgTuris{
+    height: 270px;
+    margin-bottom: 5%;
+}
+#LoqTC{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-size: 2rem;
+    color: #3eb9c9;
+}
+.texCompTur{
+    text-align: justify;
+    padding-top: 40px;
+}
+.cardTur{
+    margin-bottom: 5%;
+    border-style: dotted; border-width: 4px;
+}
+/* miciudad */
+
+/* formilario */
+
+#form{
+    margin-bottom: 10%;
+}
+.miNom{
+    font-weight: bold;
+    color: #3eb9c9;
+}
+#EnvMenTit{
+    color: #3eb9c9;
+}
+.btn-form {
+    background-color: #3eb9c9;
+    color: white;
+  }
+  
+  .btn-form:hover {
+    background-color: #247580;
+  }
+
+/* formulario */
+
+/*CSS DE FOOTER*/
+#logFoot{
+    height: 7.5rem;
+    padding-bottom: 12px;
+
+  }
+  .copri{
+    background-color: #021859;
+    color: white;
+    font-family: "header_titulos";
+  }
+  #contTEXTfooter h4{
+    margin-top: 20px;
+  }
+  #copy{
+    border-top: 1px solid #e0e0e0;
+    padding-top: 0.5rem;
+    text-align: center;
+  }
+  .social:hover {
+       -webkit-transform: scale(1.1);
+       -moz-transform: scale(1.1);
+       -o-transform: scale(1.1);
+   }
+   .social {
+       -webkit-transform: scale(0.8); 
+       -moz-transform: scale(0.8);
+       -o-transform: scale(0.8);
+       -webkit-transition-duration: 0.5s;
+       -moz-transition-duration: 0.5s;
+       -o-transition-duration: 0.5s;
+   }
+
+   
+   #social-fb:hover {
+       color: #3B5998;
+   }
+   #social-tw:hover {
+       color: #4099FF;
+   }
+   #social-gp:hover {
+       color: #d34836;
+   }
+   #social-em:hover {
+       color: #f39c12;
+   }
+  
+  #footer2 a{
+    color: white !important;
+    margin-right: 1.5rem;
+  }
+  #botTWIT{
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  /* /CSS DE FOOTER*/
+
+/* mis-gustos */
+
+#contMisGust{
+    margin-top: 15%;
+}
+.entreTit{
+    text-align: center;
+}
+
+.contenedor6 {
+	max-width: 1200px;
+	margin:5px auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.contenedor_tarjeta {
+	margin: 20px;
+}
+
+.contenedor_tarjeta a {
+	display: inline-block;
+}
+
+.contenedor_tarjeta:hover figure {
+	transform: perspective(600px) rotateY(180deg);
+	-webkit-box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.25);
+	box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.25);
+}
+
+
+
+figure {
+	width: 300px;
+	height: 350px;
+	margin:0;
+	position: relative;
+	transition: all ease .5s;
+	transform-style: preserve-3d;
+	transform: perspective(600px) rotateY(0deg);
+}
+
+figure .frontal,
+figure .trasera {
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	transition: all ease .5s;
+}
+
+figure .frontal {
+	display: block;
+	background: #000;
+}
+
+figure .trasera {
+	position: absolute;
+	top: 0;
+	padding: 20px;
+	color: #fff;
+	transform: perspective(600px) rotateY(180deg);
+	backface-visibility: hidden;
+	overflow: auto;
+}
+
+.contenedor_tarjeta:nth-child(1) figure .trasera{
+	background: rgba(223,234,241,0.7);
+	background: -moz-linear-gradient(top, rgba(223,234,241,0.7) 0%, rgba(15,99,144,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(223,234,241,0.7)), color-stop(100%, rgba(15,99,144,1)));
+	background: -webkit-linear-gradient(top, rgba(223,234,241,0.7) 0%, rgba(15,99,144,1) 100%);
+	background: -o-linear-gradient(top, rgba(223,234,241,0.7) 0%, rgba(15,99,144,1) 100%);
+	background: -ms-linear-gradient(top, rgba(223,234,241,0.7) 0%, rgba(15,99,144,1) 100%);
+	background: linear-gradient(to bottom, rgba(223,234,241,0.7) 0%, rgba(15,99,144,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfeaf1', endColorstr='#0f6390', GradientType=0 );
+}
+
+.contenedor_tarjeta:nth-child(2) figure .trasera{
+	background: rgba(251,232,202,0.7);
+	background: -moz-linear-gradient(top, rgba(251,232,202,0.7) 0%, rgba(25,44,72,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(251,232,202,0.7)), color-stop(100%, rgba(25,44,72,1)));
+	background: -webkit-linear-gradient(top, rgba(251,232,202,0.7) 0%, rgba(25,44,72,1) 100%);
+	background: -o-linear-gradient(top, rgba(251,232,202,0.7) 0%, rgba(25,44,72,1) 100%);
+	background: -ms-linear-gradient(top, rgba(251,232,202,0.7) 0%, rgba(25,44,72,1) 100%);
+	background: linear-gradient(to bottom, rgba(251,232,202,0.7) 0%, rgba(25,44,72,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbe8ca', endColorstr='#192c48', GradientType=0 );
+}
+
+.contenedor_tarjeta:nth-child(3) figure .trasera{
+	background: rgba(95,58,53,0.7);
+	background: -moz-linear-gradient(top, rgba(95,58,53,0.7) 0%, rgba(221,32,47,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(95,58,53,0.7)), color-stop(100%, rgba(221,32,47,1)));
+	background: -webkit-linear-gradient(top, rgba(95,58,53,0.7) 0%, rgba(221,32,47,1) 100%);
+	background: -o-linear-gradient(top, rgba(95,58,53,0.7) 0%, rgba(221,32,47,1) 100%);
+	background: -ms-linear-gradient(top, rgba(95,58,53,0.7) 0%, rgba(221,32,47,1) 100%);
+	background: linear-gradient(to bottom, rgba(95,58,53,0.7) 0%, rgba(221,32,47,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5f3a35', endColorstr='#dd202f', GradientType=0 );
+}
+
+figure .trasera .titulo {
+	color: #fff;
+	font-weight: normal;
+	margin-bottom: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+}
+
+figure .trasera hr {
+	height: 2px;
+	background: #fff;
+	border: none;
+	margin-bottom: 20px;
+	opacity: .5;
+}
+
+figure .trasera p {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 22px;
+	font-size: 14px;
+}
+
+@media screen and (max-width: 992px) { 
+	figure .trasera {
+		backface-visibility:visible;
+		transform: perspective(600px) rotateY(0deg);
+	}
+
+	.contenedor_tarjeta:hover figure {
+		transform: perspective(600px) rotateY(0deg);	
+	}
+
+}
+
+/* mis gustos */
+
+
+  @media (max-width: 768px){
+    #miCiudadText{
+        font-size: 1.8rem;
+    }
+    #miCiudadText2{
+        display: none;
+    }
+  }
